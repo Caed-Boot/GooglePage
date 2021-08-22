@@ -1,5 +1,0 @@
-Hola soy un nuevo Texto.
-
-Haciendo pruebas al proyecto.
-
-Agregando otras cositas mas.
