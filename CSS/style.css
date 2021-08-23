@@ -1,0 +1,85 @@
+:root {
+    --pointer:pointer;
+    --transition:background-color 0.5s ease;
+    --gray:#777;
+    --grayLight:rgb(233, 233, 233);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+.header {
+    display: flex;
+    font-size: 1.1rem;
+    justify-content: flex-end;
+    align-items: center;
+    height: 4.5rem;
+}
+
+.header__box{
+    display: flex;
+    align-items: center;
+}
+
+.header__img-container {
+    display: flex;
+    cursor: var(--pointer);
+    width: 8.2rem;
+}
+
+
+
+.header__img-menu {
+    width: 1.3rem;
+    margin: 0 0.7rem;
+    cursor: var(--pointer);
+    transition: var(--transition);
+}
+
+
+.header__img-avatar {
+    width: 2.6rem;
+    margin: 0 1.4rem;
+    border-radius: 50%;
+}
+
+
+.modifier-Hover {
+    transition: var(--transition);
+    border-radius: 50%;
+}
+
+.modifier-Hover:hover {
+    background-color: var(--grayLight);
+}
+
+
+
+.modifier-HoverDos {
+    transition: var(--transition);
+    border-radius: 50%;
+}
+
+.modifier-HoverDos:hover{
+    background-color: var(--grayLight);
+}
+
+.header__item {
+    margin: 0 0.9rem;
+    color: var(--gray);
+    text-decoration: none;
+    transition: color 0.5s ease;
+}
+
+.header__item:hover {
+    text-decoration: underline;
+    color: rgb(19, 19, 19);
+}
