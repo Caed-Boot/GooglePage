@@ -198,3 +198,48 @@ textarea:focus {
     color: rgb(28, 74, 143);
     text-decoration: underline;
 }
+
+/* Footer */
+
+.footer {
+    height: 6rem;
+    background-color: #f2f2f2;
+    margin-top: 19.7rem;
+}
+
+.footer__country {
+    display: flex;
+    align-items: center;
+    padding: 1rem 2rem;
+    height: 50%;
+    border-bottom: 1px solid rgb(221, 221, 221);
+}
+
+.footer__vz {
+    color:rgba(63, 63, 63, 0.54);
+}
+
+.footer__info {
+    height: 50%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__menu {
+    display: inline-flex;
+}
+
+.footer__menu-option {
+    display: inline-flex;
+}
+
+.footer__item {
+    list-style: none;
+    padding: 1rem 1rem;
+    font-size: 1.1rem;
+    color: rgba(63, 63, 63, 0.54);
+}
+
+
+
+
