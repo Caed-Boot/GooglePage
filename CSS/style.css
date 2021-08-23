@@ -106,6 +106,14 @@ html{
 
 .search__mic {
     width: 1.4rem;
+    cursor: pointer;
+    transition: background-color, width 0.5s ease;
+}
+
+.search__mic:hover {
+    background-color: var(--grayLight);
+    border-radius: 50%;
+    width: 1.6rem;
 }
 
 textarea:focus {
@@ -146,4 +154,47 @@ textarea:focus {
 .main__img {
     width: 22rem;
 
+}
+
+.button__container {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+.button__boton {
+    margin: 0.6rem;
+    background-color: #f3f3f3;
+    outline: none;
+    border: none;
+    width: 12.5rem;
+    height: 3rem;
+    font-size: 1.1rem;
+    border-radius: 0.4rem;
+    color: #4a4a4a;
+    cursor: pointer;
+    transition: box-shadow, background-color 0.5s ease;
+}
+
+.button__boton:hover {
+    background-color: #d3d3d3;
+}
+
+.language{
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+    font-size: 1.1rem;
+    color: #4a4a4a;
+}
+
+.language__item {
+    text-decoration: none;
+    color: rgb(17, 101, 226);
+    transition: color 0.5s ease;
+}
+
+.language__item:hover {
+    color: rgb(28, 74, 143);
+    text-decoration: underline;
 }
